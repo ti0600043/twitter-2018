@@ -66,7 +66,7 @@ def follow(copy_user, a_cnt):
 if __name__ == "__main__":
 
     # 日時を表示
-    print(datetime.datetime.today())
+    print(datetime.datetime.today().encode('utf-8'))
 
     u_cnt = 0
     f_cnt = 0
