@@ -66,7 +66,7 @@ def follow(copy_user, a_cnt):
 if __name__ == "__main__":
 
     # 日時を表示
-    print(datetime.datetime.today()).decode( "utf-8" )
+    # print(datetime.datetime.today())
 
     u_cnt = 0
     f_cnt = 0
@@ -88,5 +88,5 @@ if __name__ == "__main__":
     print(u'{}人をフォロー解除、{}人をフォローしました。'.format(u_cnt,f_cnt))
 
     # 日時を表示
-    print(datetime.datetime.today())
+    # print(datetime.datetime.today())
     
