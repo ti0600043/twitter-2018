@@ -5,7 +5,7 @@ import datetime
 import sys
 import codecs
 
-sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
+# sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
 def get_api():
     keys = dict(
@@ -34,7 +34,7 @@ def unfollow(api, followers, friends):
         if f not in followers:
             if unfollow_cnt <= 100:
                api.destroy_friendship(f)
-               print("{0}のフォローを解除しました。".format(api.get_user(f).screen_name).encode('utf-8'))
+               print("{0}のフォローを解除しました。".format(api.get_user(f).screen_name))
                time.sleep(2)
                unfollow_cnt += 1
             else:
