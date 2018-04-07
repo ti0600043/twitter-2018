@@ -5,7 +5,8 @@ import datetime
 import sys
 import codecs
 
-sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
+# python2系で起動するときは必要
+# sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
 def get_api():
     keys = dict(
