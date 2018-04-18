@@ -14,8 +14,8 @@ def get_api():
         screen_name = 'tensyokunet',
         consumer_key = 'SUsFReJEW1e3jXzbq9DQXgtWx',
         consumer_secret = 'siBXDr1rVKfLBFNlZWoPw4rZsnKkA66PlRT27vpvRjSDlSW2kO',
-        access_token =  '967772103733755905-WwxTOpiQi3QcZMlOvUgx2l01D2xPtHf',
-        access_token_secret = 'vAVw1avNJDToPOnTnJMfHabxwvTTF0QebfVhBtR8veKP7',
+        access_token =  '967772103733755905-YDqFHDCM98LnavKIeTVi0uYqqsWlnE8',
+        access_token_secret = 'QE2C1HEKIvpZxC9eliYbxF5ZGwt0qezPuoXflvjKJtkKN',
     )
  
     SCREEN_NAME = keys['screen_name']
