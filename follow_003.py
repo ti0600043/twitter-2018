@@ -12,8 +12,8 @@ def get_api():
     keys = dict(
         # 入力
         screen_name = 'tensyokunet',
-        consumer_key = 'SUsFReJEW1e3jXzbq9DQXgtWx',
-        consumer_secret = 'siBXDr1rVKfLBFNlZWoPw4rZsnKkA66PlRT27vpvRjSDlSW2kO',
+        consumer_key = 'Da0nNiyi4prf1IKJMeQ7dufjH',
+        consumer_secret = 'l8gRmfRx91wE3gBFQ7gb41CuHE9wj7pPs0AJX9UqhT9aBEdoIp',
         access_token =  '967772103733755905-YDqFHDCM98LnavKIeTVi0uYqqsWlnE8',
         access_token_secret = 'QE2C1HEKIvpZxC9eliYbxF5ZGwt0qezPuoXflvjKJtkKN',
     )
