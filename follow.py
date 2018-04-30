@@ -4,6 +4,7 @@ import time
 import datetime
 import sys
 import codecs
+import subprocess
 
 # python2系で起動するときは必要
 sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
