@@ -14,8 +14,8 @@ def get_api():
         screen_name = 'biyo_kenko_net',
         consumer_key = 'VtjHUxPGeb0R7iST2IVdCiYk4',
         consumer_secret = 'IGdIQJOoF47hyE90F3DfEImXcjFQpGrUgf62oa8KUI4xdbh4oW',
-        access_token =  '967363022132977665-PiMGdwzv8HB9yMtNOQJ6gtAMMIlWjDK',
-        access_token_secret = 'MC5p0H16c9x918jcgiVyZmKhMxpSWTgTk4Dsyvmz75s3W',
+        access_token =  '967363022132977665-inUT9NkCyhAGRp5UO3RShsuVUo60116',
+        access_token_secret = 'u1AHWT0ncKyDHEO4y5OfUtWlMcRW2EB0X2oWDEsIxjdoR',
     )
  
     SCREEN_NAME = keys['screen_name']
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     u_cnt = unfollow(api, followers, friends)
 
     # 100回フォロー
-    a_count = 100
+    a_count = 50
     a_cnt = int(a_count)
 
     # 入力

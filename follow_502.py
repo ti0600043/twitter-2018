@@ -11,11 +11,11 @@ sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 def get_api():
     keys = dict(
         # 入力
-        screen_name = 'tensyokunet',
-        consumer_key = 'Da0nNiyi4prf1IKJMeQ7dufjH',
-        consumer_secret = 'l8gRmfRx91wE3gBFQ7gb41CuHE9wj7pPs0AJX9UqhT9aBEdoIp',
-        access_token =  '967772103733755905-XyyclqhfiuKyfbEjjR4QnKTkPW0zbME',
-        access_token_secret = 'RRqHOjjKAfw48czrZkeKUH5odWYHlCCch0N4oskbLZXEi',
+        screen_name = 'kenkou_biyo',
+        consumer_key = 'Z7O0IwUy5ZW4YMpgxVlktZTdT',
+        consumer_secret = 'fnIa7kEAp0VHv04xBEGcC4ipuQDBRp3RV0JJbEmivDfZpyXH3t',
+        access_token =  '976373927801843712-hfDmp8E0kREn4KufS2tmioZqkUyIAyM',
+        access_token_secret = '172xkdEbaelnz6jTkdkqJD6sGsJdkx6UDR7eUpzLFGIW8',
     )
  
     SCREEN_NAME = keys['screen_name']
@@ -67,27 +67,26 @@ def follow(copy_user, a_cnt):
 if __name__ == "__main__":
 
     # 日時を表示
-    # print(datetime.datetime.today())
+    print(datetime.datetime.today())
 
-    u_cnt = 0
+#   u_cnt = 0
     f_cnt = 0
 
     # 基本情報を取得
     api, SCREEN_NAME = get_api()
     followers = api.followers_ids(SCREEN_NAME)
     friends = api.friends_ids(SCREEN_NAME)
-    u_cnt = unfollow(api, followers, friends)
+#   u_cnt = unfollow(api, followers, friends)
 
     # 100回フォロー
     a_count = 50
     a_cnt = int(a_count)
 
     # 入力
-    copy_user = "tinclehoi"
-
+    copy_user = "BeautyTrivia"
+    
     f_cnt = follow(copy_user, a_cnt)
-    print(u'{}人をフォロー解除、{}人をフォローしました。'.format(u_cnt,f_cnt))
+    print(u'{}人をフォローしました。'.format(f_cnt))
 
     # 日時を表示
-    # print(datetime.datetime.today())
-    
+    print(datetime.datetime.today())
